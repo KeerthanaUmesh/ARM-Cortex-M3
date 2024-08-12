@@ -69,7 +69,7 @@ void gsm_init()
 void gsm_send()
 {
 	int k;
-	unsigned char cmd4[]="AT+CMGS=\"9686296815\"\r\n";
+	unsigned char cmd4[]="AT+CMGS=\"xxxxxxxxxx\"\r\n";// enter your mobile number here
 	unsigned char cmd5[]=" DANGER !!! INTRUDER !!!";
 
 	
